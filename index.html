@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xabier Aldana — Desarrollador de Software</title>
+  <meta name="description" content="Portafolio profesional de Juan Carlos Pineda, desarrollador de software." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Disclaimer banner -->
+  <div class="disclaimer" id="disclaimer" role="note">
+    <p>
+      <strong>Aviso:</strong> Esta es una plantilla ilustrativa. Toda la información,
+      nombres, proyectos y datos de contacto son ficticios y no representan a una persona real.
+    </p>
+    <button class="disclaimer-close" id="disclaimerClose" aria-label="Cerrar aviso">&times;</button>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a href="#home" class="nav-brand">JC<span class="accent">.</span>Pineda</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Inicio</a></li>
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#experience" class="nav-link">Experiencia</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#contact" class="nav-link nav-link-cta">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <p class="hero-eyebrow reveal">Desarrollador de Software · Ciudad de México</p>
+        <h1 class="hero-title reveal">
+          Juan Carlos <em>Pineda</em>
+        </h1>
+        <p class="hero-subtitle reveal">
+          Construyo aplicaciones web sólidas, mantenibles y centradas en las personas.
+          Más de ocho años transformando ideas en productos digitales.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contact" class="btn btn-ghost">Hablemos</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">01</span>
+          <h2 class="section-title">Sobre mí</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Soy ingeniero de software con enfoque en desarrollo web full&#8209;stack.
+              Durante mi carrera he colaborado con startups y empresas consolidadas,
+              liderando equipos pequeños y entregando productos que usan miles de personas.
+            </p>
+            <p>
+              Me apasiona el código limpio, la arquitectura bien pensada y los detalles
+              que hacen que un producto se sienta cuidado. Cuando no estoy programando,
+              escribo artículos técnicos y participo como mentor en comunidades de desarrollo.
+            </p>
+          </div>
+          <div class="about-facts reveal">
+            <div class="fact">
+              <span class="fact-value">8+</span>
+              <span class="fact-label">Años de experiencia</span>
+            </div>
+            <div class="fact">
+              <span class="fact-value">40+</span>
+              <span class="fact-label">Proyectos entregados</span>
+            </div>
+            <div class="fact">
+              <span class="fact-value">12</span>
+              <span class="fact-label">Equipos liderados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">02</span>
+          <h2 class="section-title">Experiencia</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-period">2021 — Presente</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">Ingeniero de Software Senior</h3>
+              <p class="timeline-company">Nortec Digital</p>
+              <p class="timeline-description">
+                Lidero el desarrollo de la plataforma principal de comercio electrónico,
+                coordinando un equipo de cinco desarrolladores y definiendo la arquitectura frontend.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-period">2018 — 2021</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">Desarrollador Full-Stack</h3>
+              <p class="timeline-company">Altavista Labs</p>
+              <p class="timeline-description">
+                Diseñé e implementé APIs y aplicaciones web para clientes del sector financiero,
+                mejorando los tiempos de respuesta de los sistemas en un 45&nbsp;%.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-period">2016 — 2018</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">Desarrollador Web Junior</h3>
+              <p class="timeline-company">Estudio Ceniza</p>
+              <p class="timeline-description">
+                Desarrollé sitios corporativos y tiendas en línea, colaborando directamente
+                con el equipo de diseño para lograr interfaces fieles al concepto original.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">03</span>
+          <h2 class="section-title">Proyectos destacados</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-index">P·01</div>
+            <h3 class="project-title">Lumen Analytics</h3>
+            <p class="project-description">
+              Panel de analítica en tiempo real para pequeñas empresas,
+              con visualizaciones interactivas y reportes automatizados.
+            </p>
+            <ul class="project-tags">
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+            </ul>
+            <a href="#" class="project-link">Ver caso de estudio →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">P·02</div>
+            <h3 class="project-title">Ruta Andina</h3>
+            <p class="project-description">
+              Plataforma de reservas para operadores turísticos con gestión
+              de disponibilidad, pagos y notificaciones.
+            </p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>Express</li>
+              <li>Stripe</li>
+            </ul>
+            <a href="#" class="project-link">Ver caso de estudio →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">P·03</div>
+            <h3 class="project-title">Archivo Abierto</h3>
+            <p class="project-description">
+              Biblioteca digital de acceso público con búsqueda avanzada
+              y catálogo colaborativo para instituciones culturales.
+            </p>
+            <ul class="project-tags">
+              <li>TypeScript</li>
+              <li>Elasticsearch</li>
+              <li>Docker</li>
+            </ul>
+            <a href="#" class="project-link">Ver caso de estudio →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">P·04</div>
+            <h3 class="project-title">Brújula CLI</h3>
+            <p class="project-description">
+              Herramienta de línea de comandos de código abierto para
+              generar proyectos web con configuración lista para producción.
+            </p>
+            <ul class="project-tags">
+              <li>Node.js</li>
+              <li>Open Source</li>
+            </ul>
+            <a href="#" class="project-link">Ver repositorio →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">04</span>
+          <h2 class="section-title">Habilidades</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Frontend</h3>
+            <ul class="skill-list">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript / TypeScript</li>
+              <li>React</li>
+              <li>Accesibilidad web</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Backend</h3>
+            <ul class="skill-list">
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+              <li>APIs REST</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Otros</h3>
+            <ul class="skill-list">
+              <li>Git &amp; GitHub</li>
+              <li>Metodologías ágiles</li>
+              <li>Liderazgo técnico</li>
+              <li>Mentoría</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact-wrapper">
+        <div class="section-header reveal">
+          <span class="section-number">05</span>
+          <h2 class="section-title">Contacto</h2>
+        </div>
+        <p class="contact-lead reveal">
+          ¿Tienes un proyecto en mente? Escríbeme y conversemos sobre cómo puedo ayudarte.
+        </p>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="tu@correo.com" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-brand">JC<span class="accent">.</span>Pineda</p>
+      <ul class="footer-links">
+        <li><a href="#" aria-label="GitHub (enlace de ejemplo)">GitHub</a></li>
+        <li><a href="#" aria-label="LinkedIn (enlace de ejemplo)">LinkedIn</a></li>
+        <li><a href="mailto:hola@jcpineda.dev">hola@jcpineda.dev</a></li>
+      </ul>
+      <p class="footer-note">
+        © <span id="currentYear"></span> Juan Carlos Pineda · Plantilla ilustrativa con datos ficticios.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
